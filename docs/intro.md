@@ -2,46 +2,87 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Get Started
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the **TapDano** project! This page will guide you through the initial steps of setting up TapDano, an open-source initiative funded by Cardano Catalyst Fund 10. TapDano leverages **NFC** (Near Field Communication) and **NFT** (Non-Fungible Token) technologies to build secure, user-friendly solutions for authenticating physical products and facilitating blockchain transactions.
+
+---
+
+## Overview
+
+- **Purpose**: TapDano aims to integrate NFC wallet functionality with NFT-based authentication for products.
+- **Key Technologies**:
+  - **NFC** for seamless, tap-and-go interactions.
+  - **NFTs** for secure proof of authenticity on the Cardano blockchain.
+- **Open-Source Approach**: Encourages community involvement and transparency.
+
+---
+
+## Features
+
+- **NFC Wallet Integration**  
+  Streamlines the use of NFC for secure and convenient Cardano transactions.
+- **Physical Product Authentication**  
+  Uses NFTs to validate the legitimacy of physical items.
+- **Community-Driven Development**  
+  Contributions are welcome, ensuring continuous improvement and innovation.
+
+---
+
+## Prerequisites
+
+1. **Operating System**: Any modern OS (Windows, macOS, Linux).
+2. **Git**: Installed for cloning repositories.
+3. **Node.js & npm** (optional if planning to use the SDK):
+   ```bash
+   node -v
+   npm -v
+   ```
+4. **Basic Knowledge**: Familiarity with Cardano, blockchain concepts, or Java Card is helpful but not mandatory.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/tapdano/tapdano.git
+   ```
+   This includes the main project files and documentation.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+2. **Navigate to the Project**  
+   ```bash
+   cd tapdano
+   ```
 
-### What you'll need
+3. **Install Dependencies** (If you plan to use or test the SDK within the main repository)  
+   ```bash
+   npm install
+   ```
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+4. **Explore the Sub-Projects**:
+   - **Firmware**: Java Card applet providing secure, low-level interactions.
+   - **SDK**: JavaScript/TypeScript package for interfacing with TapDano tags.
+   - **App**: Ionic-based mobile and web application serving as a hardware wallet for Cardano.
 
-## Generate a new site
+---
 
-Generate a new Docusaurus site using the **classic template**.
+## Next Steps
 
-The classic template will automatically be added to your project after you run the command:
+- **Learn More About the Firmware**: Review the [Firmware Documentation](./firmware) for details on how the Java Card applet is structured.
+- **Explore the SDK**: Check out the [SDK Documentation](./sdk) to learn how to integrate TapDano features into your own apps.
+- **Try the TapDano App**: Visit the [App Documentation](./app) to download and get started with the official mobile/web client.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+---
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Contributing
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+We welcome any form of contribution:
+- **Submit Pull Requests** for improvements or new features.
+- **Open an Issue** to report bugs or request features.
 
-## Start your site
+Your input helps TapDano grow and evolve!
 
-Run the development server:
+---
 
-```bash
-cd my-website
-npm run start
-```
+## License
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+This project is available under the **MIT License**. Feel free to use, modify, and distribute it as per the license terms.
