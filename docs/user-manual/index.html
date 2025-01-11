@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-user-manual" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.6.3">
+<title data-rh="true">User Manual | TapDano</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://tapdano.github.io/docs/img/logo-tapdano.svg"><meta data-rh="true" name="twitter:image" content="https://tapdano.github.io/docs/img/logo-tapdano.svg"><meta data-rh="true" property="og:url" content="https://tapdano.github.io/docs/docs/user-manual"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="User Manual | TapDano"><meta data-rh="true" name="description" content="This User Manual provides step-by-step instructions for everyday usage of the TapDano ecosystem, from setting up NFC smartcards to managing Cardano assets via the TapDano App and SDK."><meta data-rh="true" property="og:description" content="This User Manual provides step-by-step instructions for everyday usage of the TapDano ecosystem, from setting up NFC smartcards to managing Cardano assets via the TapDano App and SDK."><link data-rh="true" rel="icon" href="/docs/img/logo-tapdano.svg"><link data-rh="true" rel="canonical" href="https://tapdano.github.io/docs/docs/user-manual"><link data-rh="true" rel="alternate" href="https://tapdano.github.io/docs/docs/user-manual" hreflang="en"><link data-rh="true" rel="alternate" href="https://tapdano.github.io/docs/docs/user-manual" hreflang="x-default"><link rel="stylesheet" href="/docs/assets/css/styles.15cbc4ab.css">
+<script src="/docs/assets/js/runtime~main.e21c2199.js" defer="defer"></script>
+<script src="/docs/assets/js/main.4363e0fc.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"dark")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/docs/"><div class="navbar__logo"><img src="/docs/img/logo-tapdano.svg" alt="TapDano Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/docs/img/logo-tapdano.svg" alt="TapDano Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">TapDano - Docs</b></a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/tapdano" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/docs/intro">Get Started</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/docs/firmware">Firmware</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/docs/sdk">SDK</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/docs/app">App</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" href="/docs/docs/user-manual">User Manual</a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/docs/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">User Manual</span><meta itemprop="position" content="1"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>User Manual</h1></header>
+<p>This <strong>User Manual</strong> provides step-by-step instructions for everyday usage of the TapDano ecosystem, from setting up NFC smartcards to managing Cardano assets via the TapDano App and SDK.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a href="#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
+<p>TapDano simplifies blockchain interactions by merging NFC technology with Cardano’s powerful NFT infrastructure. Whether you’re verifying a physical product or sending a Cardano transaction, TapDano ensures security and convenience.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="requirements">Requirements<a href="#requirements" class="hash-link" aria-label="Direct link to Requirements" title="Direct link to Requirements">​</a></h2>
+<ul>
+<li><strong>TapDano-Enabled Smartcard</strong>:<!-- -->
+<ul>
+<li>Pre-flashed with the TapDano Java Card Applet (firmware).</li>
+</ul>
+</li>
+<li><strong>Device with NFC</strong>:<!-- -->
+<ul>
+<li>Smartphone (Android, iOS) or NFC USB reader for desktops.</li>
+</ul>
+</li>
+<li><strong>TapDano App</strong> or <strong>TapDano SDK</strong>:<!-- -->
+<ul>
+<li>Use the official app for a user-friendly interface.</li>
+<li>Use the SDK to integrate TapDano functionalities into custom projects.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="getting-started">Getting Started<a href="#getting-started" class="hash-link" aria-label="Direct link to Getting Started" title="Direct link to Getting Started">​</a></h2>
+<ol>
+<li><strong>Obtain a TapDano Smartcard</strong>
+<ul>
+<li>Purchase or flash your own Java Card with the TapDano firmware.</li>
+</ul>
+</li>
+<li><strong>Install the TapDano App</strong> (Mobile or Web)<!-- -->
+<ul>
+<li><a href="https://github.com/tapdano/app/raw/main/tapdano.apk" target="_blank" rel="noopener noreferrer">Download the APK</a> or access via web (if available).</li>
+</ul>
+</li>
+<li><strong>Optional: Set Up the SDK</strong>
+<ul>
+<li>Install the npm package <code>tapdano</code> for advanced integration.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="typical-use-cases">Typical Use Cases<a href="#typical-use-cases" class="hash-link" aria-label="Direct link to Typical Use Cases" title="Direct link to Typical Use Cases">​</a></h2>
+<ol>
+<li><strong>Read a TapDano Tag</strong>
+<ul>
+<li>Open the TapDano App or run <code>readTag()</code> via SDK.</li>
+<li>Tap your card or connect via an NFC reader.</li>
+<li>View the card’s details (version, policy ID, etc.).</li>
+</ul>
+</li>
+<li><strong>Mint or Restore a Tag</strong> (<code>Burn Tag</code>)<!-- -->
+<ul>
+<li>Set up a Soulbound or Extractable tag.</li>
+<li>If restoring, provide a previously backed-up private key.</li>
+</ul>
+</li>
+<li><strong>Sign Data</strong>
+<ul>
+<li>For Cardano transactions or any message needing cryptographic signing.</li>
+<li>Use the app’s “Sign Transaction” feature or <code>signData()</code> in the SDK.</li>
+</ul>
+</li>
+<li><strong>Lock &amp; Unlock Tags</strong>
+<ul>
+<li><strong>Permanent Lock (Lock Tag)</strong> for Soulbound keys.</li>
+<li><strong>Temporary Lock (Pin Lock)</strong> to secure an Extractable key behind a PIN.</li>
+</ul>
+</li>
+<li><strong>Set a PolicyId</strong>
+<ul>
+<li>Link an NFT PolicyId to the tag for soulbound NFTs.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tips--best-practices">Tips &amp; Best Practices<a href="#tips--best-practices" class="hash-link" aria-label="Direct link to Tips &amp; Best Practices" title="Direct link to Tips &amp; Best Practices">​</a></h2>
+<ul>
+<li><strong>Keep Your PIN Secure</strong>
+<ul>
+<li>Don’t share it. Store it in a secure location.</li>
+</ul>
+</li>
+<li><strong>Backup Extractable Keys</strong>
+<ul>
+<li>If using an Extractable tag, store your private key safely offline.</li>
+</ul>
+</li>
+<li><strong>Use Soulbound Tags for Higher Security</strong>
+<ul>
+<li>If you don’t need extractable keys, Soulbound ensures maximum protection.</li>
+</ul>
+</li>
+<li><strong>Stay Up to Date</strong>
+<ul>
+<li>Always use the latest firmware and app versions for security patches.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="troubleshooting">Troubleshooting<a href="#troubleshooting" class="hash-link" aria-label="Direct link to Troubleshooting" title="Direct link to Troubleshooting">​</a></h2>
+<ul>
+<li><strong>Tag Not Detected</strong>:<!-- -->
+<ul>
+<li>Ensure NFC is enabled on your device.</li>
+<li>Try tapping the card on different areas of the phone or reader.</li>
+</ul>
+</li>
+<li><strong>Pin Lock Issues</strong>:<!-- -->
+<ul>
+<li>Double-check your PIN format (4 characters).</li>
+<li>Use <code>pinUnlock(pin)</code> in the SDK or follow the in-app unlock instructions.</li>
+</ul>
+</li>
+<li><strong>Firmware Installation Errors</strong>:<!-- -->
+<ul>
+<li>Confirm Java Card environment variables are correctly set.</li>
+<li>Verify you have the correct <code>.cap</code> file for the card.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="additional-resources">Additional Resources<a href="#additional-resources" class="hash-link" aria-label="Direct link to Additional Resources" title="Direct link to Additional Resources">​</a></h2>
+<ul>
+<li><a href="/docs/docs/firmware">Firmware Documentation</a><br>
+<!-- -->Learn how to build and install the Java Card Applet.</li>
+<li><a href="/docs/docs/sdk">SDK Documentation</a><br>
+<!-- -->Integrate TapDano into your custom applications.</li>
+<li><a href="/docs/docs/app">App Documentation</a><br>
+<!-- -->Discover the features of the TapDano App.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="contributing">Contributing<a href="#contributing" class="hash-link" aria-label="Direct link to Contributing" title="Direct link to Contributing">​</a></h2>
+<p>Your feedback and contributions help improve TapDano. Feel free to:</p>
+<ul>
+<li><strong>Open an Issue</strong> on GitHub for questions or bug reports.</li>
+<li><strong>Submit a Pull Request</strong> with new features or documentation changes.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="license">License<a href="#license" class="hash-link" aria-label="Direct link to License" title="Direct link to License">​</a></h2>
+<p>TapDano is made available under the <strong>MIT License</strong>. You may freely copy, modify, and distribute the software under its terms.</p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/docs/app"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">App</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#introduction" class="table-of-contents__link toc-highlight">Introduction</a></li><li><a href="#requirements" class="table-of-contents__link toc-highlight">Requirements</a></li><li><a href="#getting-started" class="table-of-contents__link toc-highlight">Getting Started</a></li><li><a href="#typical-use-cases" class="table-of-contents__link toc-highlight">Typical Use Cases</a></li><li><a href="#tips--best-practices" class="table-of-contents__link toc-highlight">Tips &amp; Best Practices</a></li><li><a href="#troubleshooting" class="table-of-contents__link toc-highlight">Troubleshooting</a></li><li><a href="#additional-resources" class="table-of-contents__link toc-highlight">Additional Resources</a></li><li><a href="#contributing" class="table-of-contents__link toc-highlight">Contributing</a></li><li><a href="#license" class="table-of-contents__link toc-highlight">License</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/docs/intro">Get Started</a></li></ul></div><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://discord.gg/ny9VkdSTBg" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://x.com/tapdano" target="_blank" rel="noopener noreferrer" class="footer__link-item">X<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/tapdano" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 TapDano, Inc.</div></div></div></footer></div>
+</body>
+</html>
